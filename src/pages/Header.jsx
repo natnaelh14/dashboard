@@ -27,7 +27,7 @@ const Header = () => {
             fontWeight: 'bold',
             textDecoration: 'none',
           }}
-          to='/'
+          to='/dashboard'
         >{`Dashboard (${boards?.length ? boards?.length : 0})`}</NavLink>
       </Nav.Item>
       <Nav.Item style={{ margin: '1.5rem' }}>

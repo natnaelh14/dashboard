@@ -12,6 +12,7 @@ function App() {
         <Header />
         <Routes>
           <Route path='/' element={<DashboardContainer />} />
+          <Route path='/dashboard' element={<DashboardContainer />} />
           <Route exact path='/create' element={<CreateDashboard />} />
         </Routes>
       </div>
