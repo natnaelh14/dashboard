@@ -40,7 +40,7 @@ const Header = () => {
           }}
           to='/create'
         >
-          Create Dashboard
+          + Create
         </NavLink>
       </Nav.Item> 
         </div>

@@ -14,12 +14,12 @@ const Customers = () => {
     <div >
       {customers.map((customer) => (
     <Card key={customer.id} border="warning" style={{ width: 'auto', padding: '0.5rem', margin: '1rem'}}>
-    <Card.Header>{customer.name.firstname.toUpperCase()} {customer.name.lastname.toUpperCase()}</Card.Header>
+    <Card.Header style={{ fontWeight: 'bold'}}>{customer.name.firstname.toUpperCase()} {customer.name.lastname.toUpperCase()}</Card.Header>
     <Card.Body>
     <ListGroup className="list-group-flush">
-    <ListGroupItem><b>Email: </b>{customer.email}</ListGroupItem>
-    <ListGroupItem><b>Phone #: </b>{customer.phone}</ListGroupItem>
-    <ListGroupItem><b>Address: </b>{customer.address.street} {customer.address.city} {customer.address.zipcode}</ListGroupItem>
+    <ListGroupItem style={{ textAlign: 'left'}}><b>Email: </b>{customer.email}</ListGroupItem>
+    <ListGroupItem style={{ textAlign: 'left'}}><b>Phone #: </b>{customer.phone}</ListGroupItem>
+    <ListGroupItem style={{ textAlign: 'left'}}><b>Address: </b>{customer.address.street}, {customer.address.city}, {customer.address.zipcode}</ListGroupItem>
   </ListGroup>
     </Card.Body>
   </Card>
