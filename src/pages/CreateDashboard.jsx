@@ -77,7 +77,7 @@ const CreateDashboard = () => {
           padding: '2rem',
         }}
       >
-        <h1 style={{ textAlign: 'center' }}>Create Dashboard</h1>
+        <h1 style={{ textAlign: 'center' }}>CREATE DASHBOARD</h1>
         <div
           style={{
             display: 'flex',
